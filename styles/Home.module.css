@@ -1,3 +1,217 @@
+.navbar_container {
+  position: absolute;
+  width: 1281px;
+  height: 71px;
+  /* left: 0px; */
+  top: 0px;
+  background: #000000;
+}
+
+.vector1 {
+  position: absolute;
+  left: 35.1%;
+  right: 41.19%;
+  top: -0.74%;
+  bottom: 16.88%;
+
+  color: #ffffff;
+  /* transform: rotate(9.5deg); */
+}
+
+.link_create {
+  position: absolute;
+  width: 94px;
+  height: 14px;
+  left: 1005px;
+  top: 29px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  /* BLUE */
+
+  color: #1b4db1;
+}
+
+.link_login {
+  position: absolute;
+  width: 34px;
+  height: 14px;
+  left: 1135px;
+  top: 29px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.link_signup {
+  position: absolute;
+  width: 42px;
+  height: 14px;
+  left: 1187px;
+  top: 29px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.header_img {
+  position: absolute;
+  width: 1280px;
+  height: 488px;
+  left: calc(50% - 1280px / 2);
+  top: calc(50% - 488px / 2);
+
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+}
+.header {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #ffffff;
+  border-radius: 23px;
+  width: 465px;
+  height: 46px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+
+  color: #a7a6a7;
+}
+
+.btn_marcas {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 19px;
+  gap: 10px;
+
+  position: absolute;
+  width: 138px;
+  height: 30px;
+  left: 440px;
+  top: 434px;
+
+  background: #ffffff;
+  /* GRAY */
+
+  border: 1px solid #a7a6a7;
+  border-radius: 23px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* GRAY */
+
+  color: #a7a6a7;
+}
+
+.btn_artistas {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 19px;
+  gap: 10px;
+
+  position: absolute;
+  width: 159px;
+  height: 30px;
+  left: 587px;
+  top: 434px;
+
+  background: #ffffff;
+  /* GRAY */
+
+  border: 1px solid #a7a6a7;
+  border-radius: 23px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* GRAY */
+
+  color: #a7a6a7;
+}
+
+.btn_torneos {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 19px;
+  gap: 10px;
+
+  position: absolute;
+  width: 86px;
+  height: 30px;
+  left: 755px;
+  top: 434px;
+
+  background: #ffffff;
+  /* GRAY */
+
+  border: 1px solid #a7a6a7;
+  border-radius: 23px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* GRAY */
+
+  color: #a7a6a7;
+}
+
 .main {
   display: flex;
   flex-direction: column;

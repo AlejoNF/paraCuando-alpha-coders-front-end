@@ -1,0 +1,320 @@
+/* --------------Title search---------------------- */
+.title_search {
+  height: 46px;
+  width: 465px;
+  left: 0px;
+  top: 0px;
+  border-radius: 23px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+
+  /* GRAY */
+
+  color: #a7a6a7;
+}
+
+/* --------------title 1------------------------ */
+.title1 {
+  /* position: absolute; */
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 56px;
+
+  /* YELLOW */
+  color: #f3f243;
+}
+
+.subtitle1 {
+  /* position: absolute; */
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #ffffff;
+}
+
+.title2 {
+  width: 68px;
+  height: 28px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+
+  /* BLACK LIGHT */
+
+  color: #1a1e2e;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.subtitle2 {
+  width: 68px;
+  height: 19px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* GRAY DARK */
+
+  color: #6e6a6c;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.title3 {
+  /* position: absolute; */
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #1a1e2e;
+}
+
+.text1 {
+  /* position: absolute; */
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+  color: #6e6a6c;
+}
+
+.atom_text2_container {
+  box-sizing: border-box;
+
+  position: relative;
+  width: 87px;
+  height: 92px;
+
+  border: 1px dashed #9747ff;
+  border-radius: 5px;
+}
+
+.text2_2 {
+  /* position: absolute; */
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  /* BLACK LIGHT */
+
+  color: #1a1e2e;
+}
+
+.text2 {
+  /* position: absolute; */
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  /* BLUE */
+
+  color: #1b4db1;
+}
+
+/* -------------MARCAS BTN------------------ */
+
+.component1 {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 19px;
+  gap: 10px;
+
+  position: relative;
+  width: 138px;
+  height: 45px;
+
+  background: #ffffff;
+  /* GRAY */
+
+  border: 1px solid #a7a6a7;
+  border-radius: 23px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* GRAY */
+
+  color: #a7a6a7;
+}
+
+/* ----------Next Botton----------------------- */
+
+.atom_btn_next {
+  /* position: absolute; */
+  left: 6.25%;
+  right: 6.25%;
+  top: 6.25%;
+  bottom: 6.25%;
+}
+
+/* -----------LIKE CONTANER------------------ */
+.atom_icon_like_container {
+  height: 158px;
+  width: 89px;
+  left: -963px;
+  top: 245px;
+  border-radius: 5px;
+  box-sizing: border-box;
+
+  /* position: relative;
+    width: 89px;
+    height: 158px; */
+
+  border: 1px dashed #9747ff;
+  border-radius: 5px;
+}
+
+.atom_siguiente_container {
+  box-sizing: border-box;
+
+  position: relative;
+  width: 164px;
+  height: 154px;
+
+  border: 1px dashed #9747ff;
+  border-radius: 5px;
+}
+
+.btn_principal_siguiente {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 18px;
+  gap: 10px;
+
+  width: 124px;
+  height: 47px;
+
+  /* BLUE */
+
+  background: #1b4db1;
+  border-radius: 31px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  text-align: center;
+
+  /* White */
+
+  color: #ffffff;
+}
+.btn_enable_siguiente {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 18px;
+  gap: 10px;
+
+  width: 124px;
+  height: 47px;
+
+  /* BLUE */
+
+  background: #1b4db1;
+  border-radius: 31px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  text-align: center;
+
+  /* White */
+
+  color: #ffffff;
+}
