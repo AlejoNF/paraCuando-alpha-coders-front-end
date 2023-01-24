@@ -9,7 +9,7 @@ export default function Footer() {
         width={5184 / 10}
         height={3888 / 10}
         className={styles.footer_img}
-        alt="rectangle22"
+        alt="rectanglefooter"
       />
       <input
         className={styles.footer_title}

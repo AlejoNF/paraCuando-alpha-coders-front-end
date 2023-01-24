@@ -9,11 +9,15 @@ export default function Layout({ children }) {
 
       <Header />
 
+      <Footer />
+
       <main>{children}</main>
 
       <br />
 
-      <Footer />
+      {/* <section className="h-screen bg-red bg-cover md:bg-top bg-center">
+        <div>hola prueba</div>
+      </section> */}
     </div>
   );
 }
