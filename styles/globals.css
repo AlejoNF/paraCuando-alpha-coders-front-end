@@ -2,55 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
-  --max-width: 1100px;
-  --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
-
 @layer component {
   .h900-normal-48px {
     @apply font-sans
            font-black
            text-5xl
-           leading-8
-           
-    /* font weight fonr size line height */
+           leading-8;
+  }
 
-.h500-normal-16px {
-  @apply font-sans
+  .h500-normal-16px {
+    @apply font-sans
            font-medium
            text-base
            leading-5;
-}
-.h500-normal-24px {
-  @apply font-sans
+  }
+  .h500-normal-24px {
+    @apply font-sans
            font-medium
            text-2xl
            leading-7;
-}
-.h400-normal-16px {
-  @apply font-sans
+  }
+  .h400-normal-16px {
+    @apply font-sans
            font-normal
            text-base
            leading-5;
-}
-.h600-medium-20px {
-  @apply font-sans
+  }
+  .h600-medium-20px {
+    @apply font-sans
            font-semibold
            text-xl
            leading-6;
-}
-.h400-medium-15px {
-  @apply font-sans
+  }
+  .h400-medium-15px {
+    @apply font-sans
            font-normal
            text-sm
            leading-3;
-}
-.h500-medium-14px {
-  @apply font-sans
+  }
+  .h500-medium-14px {
+    @apply font-sans
            font-medium
            text-xs
            leading-3;
+  }
 }
