@@ -32,12 +32,12 @@ module.exports = {
       '5xl': '48px',
     },
     lineHeight: {
-      'leading-3': '16px',
-      'leading-4': '18px',
-      'leading-5': '19px',
-      'leading-6': '23px',
-      'leading-7': '28px',
-      'leading-8': '56px',
+      '3': '16px',
+      '4': '18px',
+      '5': '19px',
+      '6': '23px',
+      '7': '28px',
+      '8': '56px',
     },
     dropShadow: {
       '1xl': '0px 2px 4px rgba(0,0,0,0.25)',
