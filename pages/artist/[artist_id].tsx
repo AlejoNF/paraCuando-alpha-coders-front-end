@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 import NarvarUser from '@/components/NarvarUser';
 import Preferences from '@/components/Preferences';
 import Search from '@/components/Search';
+import Image from 'next/image';
 
 const artist_id = () => {
   return (
@@ -26,11 +27,17 @@ const artist_id = () => {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio,
               excepturi.
             </p>
-            <img
+            <Image
+              src="/Artist.png"
+              alt="atoms-img"
+              width={1285}
+              height={204}
+            ></Image>
+            {/* <img
               className="w-[1285px] h-[204px] "
               src="/Artist.png"
               alt="atoms-img"
-            />
+            /> */}
           </div>
         </div>
       </section>

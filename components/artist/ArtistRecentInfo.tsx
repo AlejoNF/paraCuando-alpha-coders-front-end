@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import styles from '../../styles/Card.module.css';
 
 export default function ArtistRecentInfo() {
@@ -17,15 +18,28 @@ export default function ArtistRecentInfo() {
           <div className={styles.card__container_location}>
             <article className={styles.card}>
               <header className={styles.card__header}>
-                <img className="w-373 h-244" src="/Bts.png" alt="atoms-img" />
+                {/* <img className="w-373 h-244" src="/Bts.png" alt="atoms-img" /> */}
+                <Image
+                  width={373}
+                  height={244}
+                  src="/Bts.png"
+                  alt="atoms-img"
+                ></Image>
 
                 <div className={styles.card__container_status}>
                   <div className={styles.like}>
-                    <img
+                    {/* <img
                       src="/img/2=like2.png"
                       alt="like-img"
                       className={styles.like_pink}
-                    />
+                    /> */}
+                    <Image
+                      width={51}
+                      height={51}
+                      src="/img/2=like2.png"
+                      alt="like-img"
+                      className={styles.like_pink}
+                    ></Image>
                   </div>
                 </div>
               </header>
@@ -57,15 +71,28 @@ export default function ArtistRecentInfo() {
 
             <article className={styles.card}>
               <header className={styles.card__header}>
-                <img className="w-373 h-244" src="/Zara.png" alt="atoms-img" />
+                {/* <img className="w-373 h-244" src="/Zara.png" alt="atoms-img" /> */}
+                <Image
+                  width={373}
+                  height={244}
+                  src="/Zara.png"
+                  alt="atoms-img"
+                ></Image>
 
                 <div className={styles.card__container_status}>
                   <div className={styles.like}>
-                    <img
+                    {/* <img
                       src="/img/2=like2.png"
                       alt="like-img"
                       className={styles.like_pink}
-                    />
+                    /> */}
+                    <Image
+                      width={51}
+                      height={51}
+                      src="/img/2=like2.png"
+                      alt="like-img"
+                      className={styles.like_pink}
+                    ></Image>
                   </div>
                 </div>
               </header>
@@ -97,15 +124,28 @@ export default function ArtistRecentInfo() {
 
             <article className={styles.card}>
               <header className={styles.card__header}>
-                <img className="w-373 h-244" src="/Lady.png" alt="Zara-img" />
+                {/* <img className="w-373 h-244" src="/Lady.png" alt="Zara-img" /> */}
+                <Image
+                  width={373}
+                  height={244}
+                  src="/Lady.png"
+                  alt="Zara-img"
+                ></Image>
 
                 <div className={styles.card__container_status}>
                   <div className={styles.like}>
-                    <img
+                    {/* <img
                       src="/img/2=like2.png"
                       alt="like-img"
                       className={styles.like_pink}
-                    />
+                    /> */}
+                    <Image
+                      width={51}
+                      height={51}
+                      src="/img/2=like2.png"
+                      alt="like-img"
+                      className={styles.like_pink}
+                    ></Image>
                   </div>
                 </div>
               </header>
@@ -138,7 +178,8 @@ export default function ArtistRecentInfo() {
         </div>
       </div>
       <div className="ml-[89.5%] absolute top-[209%] cursor-pointer hover:brightness-150">
-        <img src="/next.png" alt="btn-next" />
+        {/* <img src="/next.png" alt="btn-next" /> */}
+        <Image src="/next.png" alt="btn-next" width={51} height={51}></Image>
       </div>
     </div>
   );

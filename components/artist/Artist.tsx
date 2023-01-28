@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 const Artist = () => {
@@ -27,7 +28,13 @@ const Artist = () => {
             </span>
           </li>
           <li className="  pt-[10px] pb-8 flex gap-8">
-            <img src="/img/person.png" alt="person" />
+            <Image
+              src="/img/person.png"
+              alt="person"
+              width={51}
+              height={51}
+            ></Image>
+            {/* <img src="/img/person.png" alt="person" /> */}
             <span>Title 3</span>
           </li>
           <li className="flex gap-8 justify-center text-white pb-[]">
@@ -36,7 +43,8 @@ const Artist = () => {
             </button>
           </li>
         </ul>
-        <img className="w-[539px] h-[381px]" src="/Bts.png" alt="atoms-img" />
+        <Image src="/Bts.png" alt="atoms-img" width={538} height={381}></Image>
+        {/* <img className="w-[539px] h-[381px]" src="/Bts.png" alt="atoms-img" /> */}
       </div>
     </div>
   );

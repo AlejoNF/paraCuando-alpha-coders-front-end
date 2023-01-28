@@ -5,6 +5,7 @@ import Search from '@/components/Search';
 import TournamentPopular from '@/components/tournament/TournamentPopular';
 import TournamentSugestions from '@/components/tournament/TournamentSugestions';
 import TournametRecent from '@/components/tournament/TournametRecent';
+import Image from 'next/image';
 
 const tournament_id = () => {
   return (
@@ -26,11 +27,17 @@ const tournament_id = () => {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio,
               excepturi.
             </p>
-            <img
+            <Image
+              width={1285}
+              height={204}
+              src="/Concers.png"
+              alt="atoms-img"
+            ></Image>
+            {/* <img
               className="w-[1285px] h-[204px] "
               src="/Concers.png"
               alt="atoms-img"
-            />
+            /> */}
           </div>
         </div>
       </section>

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import styles from '../../styles/Card.module.css';
 
 const StoreRecent = () => {
@@ -17,15 +18,28 @@ const StoreRecent = () => {
           <div className={styles.card__container_location}>
             <article className={styles.card}>
               <header className={styles.card__header}>
+                <Image
+                  width={373}
+                  height={244}
+                  src="/Bts.png"
+                  alt="atoms-img"
+                ></Image>
                 <img className="w-373 h-244" src="/Bts.png" alt="atoms-img" />
 
                 <div className={styles.card__container_status}>
                   <div className={styles.like}>
-                    <img
-                      src="/img/2=like.png"
+                    <Image
+                      width={51}
+                      height={51}
+                      src="/img/2=like2.png"
                       alt="like-img"
                       className={styles.like_pink}
-                    />
+                    ></Image>
+                    {/* <img
+                      src="/img/2=like2.png"
+                      alt="like-img"
+                      className={styles.like_pink}
+                    /> */}
                   </div>
                 </div>
               </header>
@@ -57,15 +71,28 @@ const StoreRecent = () => {
 
             <article className={styles.card}>
               <header className={styles.card__header}>
-                <img className="w-373 h-244" src="/Zara.png" alt="atoms-img" />
+                <Image
+                  width={373}
+                  height={244}
+                  src="/Zara.png"
+                  alt="atoms-img"
+                ></Image>
+                {/* <img className="w-373 h-244" src="/Zara.png" alt="atoms-img" /> */}
 
                 <div className={styles.card__container_status}>
                   <div className={styles.like}>
-                    <img
-                      src="/img/2=like.png"
+                    <Image
+                      src="/img/2=like2.png"
                       alt="like-img"
                       className={styles.like_pink}
-                    />
+                      width={51}
+                      height={51}
+                    ></Image>
+                    {/* <img
+                      src="/img/2=like2.png"
+                      alt="like-img"
+                      className={styles.like_pink}
+                    /> */}
                   </div>
                 </div>
               </header>
@@ -97,15 +124,28 @@ const StoreRecent = () => {
 
             <article className={styles.card}>
               <header className={styles.card__header}>
-                <img className="w-373 h-244" src="/Lady.png" alt="Zara-img" />
+                <Image
+                  width={373}
+                  height={244}
+                  src="/Lady.png"
+                  alt="Zara-img"
+                ></Image>
+                {/* <img className="w-373 h-244" src="/Lady.png" alt="Zara-img" /> */}
 
                 <div className={styles.card__container_status}>
                   <div className={styles.like}>
-                    <img
-                      src="/img/2=like.png"
+                    <Image
+                      src="/img/2=like2.png"
                       alt="like-img"
                       className={styles.like_pink}
-                    />
+                      width={51}
+                      height={51}
+                    ></Image>
+                    {/* <img
+                      src="/img/2=like2.png"
+                      alt="like-img"
+                      className={styles.like_pink}
+                    /> */}
                   </div>
                 </div>
               </header>
@@ -137,8 +177,9 @@ const StoreRecent = () => {
           </div>
         </div>
       </div>
-      <div className="ml-[89.5%] absolute top-[388%] cursor-pointer hover:brightness-125">
-        <img src="/next.png" alt="btn-next" />
+      <div className="ml-[89.5%] absolute top-[383%] cursor-pointer hover:brightness-150">
+        <Image src="/next.png" alt="btn-next" width={51} height={51}></Image>
+        {/* <img src="/next.png" alt="btn-next" /> */}
       </div>
     </div>
   );

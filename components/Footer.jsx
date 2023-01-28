@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Footer() {
   return (
     <div className="pt-10 w-[1285px] container ">
@@ -7,11 +9,17 @@ export default function Footer() {
           type="text"
           placeholder="¿Qué quieres ver en tu ciudad? 🔍"
         />
-        <img
+        <Image
+          width={1285}
+          height={488}
+          src="/rectangle22.png"
+          alt="atoms-img"
+        ></Image>
+        {/* <img
           className="w-[1285px] h-[488px] "
           src="/rectangle22.png"
           alt="atoms-img"
-        />
+        /> */}
       </div>
     </div>
   );

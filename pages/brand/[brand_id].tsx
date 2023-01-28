@@ -5,6 +5,7 @@ import Search from '@/components/Search';
 import StoreRecent from '@/components/stores/StoreRecent';
 import StoresPopular from '@/components/stores/StoresPopular';
 import StoreSugestion from '@/components/stores/StoreSugestion';
+import Image from 'next/image';
 
 const brand_id = () => {
   return (
@@ -26,11 +27,17 @@ const brand_id = () => {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio,
               excepturi.
             </p>
-            <img
+            <Image
+              width={1285}
+              height={204}
+              src="/Store.png"
+              alt="atoms-img"
+            ></Image>
+            {/* <img
               className="w-[1280px] h-[204px] "
               src="/Store.png"
               alt="atoms-img"
-            />
+            /> */}
           </div>
         </div>
       </section>
