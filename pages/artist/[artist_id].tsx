@@ -32,6 +32,7 @@ const artist_id = () => {
               alt="atoms-img"
               width={1285}
               height={204}
+              className="w-[1280px] h-[204px]"
             ></Image>
             {/* <img
               className="w-[1285px] h-[204px] "

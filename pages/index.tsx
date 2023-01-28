@@ -1,5 +1,11 @@
+import Footer from '@/components/Footer';
+import Homepopular from '@/components/home/Homepopular';
+import HomeRecent from '@/components/home/HomeRecent';
+import HomeSugestions from '@/components/home/HomeSugestions';
+import Preferences from '@/components/Preferences';
 import Head from 'next/head';
 import Header from '../components/Header';
+import Navbar from '../components/Navbar';
 
 export default function Home() {
   return (
@@ -11,7 +17,27 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header />
+      <section>
+        <Navbar />
+      </section>
+      <section>
+        <Header />
+      </section>
+      <section>
+        <Homepopular />
+      </section>
+      <section>
+        <HomeSugestions />
+      </section>
+      <section>
+        <Preferences />
+      </section>
+      <section>
+        <HomeRecent />
+      </section>
+      <section>
+        <Footer />
+      </section>
     </>
   );
 }

@@ -32,6 +32,7 @@ const brand_id = () => {
               height={204}
               src="/Store.png"
               alt="atoms-img"
+              className="w-[1280px] h-[488px]"
             ></Image>
             {/* <img
               className="w-[1280px] h-[204px] "

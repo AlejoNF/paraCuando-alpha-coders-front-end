@@ -43,7 +43,13 @@ const Artist = () => {
             </button>
           </li>
         </ul>
-        <Image src="/Bts.png" alt="atoms-img" width={538} height={381}></Image>
+        <Image
+          src="/Bts.png"
+          alt="atoms-img"
+          width={538}
+          height={381}
+          className="w-[538px] h-[381px]"
+        ></Image>
         {/* <img className="w-[539px] h-[381px]" src="/Bts.png" alt="atoms-img" /> */}
       </div>
     </div>

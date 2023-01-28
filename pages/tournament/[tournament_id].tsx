@@ -32,6 +32,7 @@ const tournament_id = () => {
               height={204}
               src="/Concers.png"
               alt="atoms-img"
+              className="w-[1280px] h-[204px]"
             ></Image>
             {/* <img
               className="w-[1285px] h-[204px] "
