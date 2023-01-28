@@ -13,17 +13,17 @@ export default function BtnTitle() {
       </div>
       <div className={styles.btn_search}>
         <div className="flex gap-8 justify-center">
-          <Link href={'/stores'}>
+          <Link href={'/brand/brand_id'}>
             <button className="w-40 bg-white cursor-pointer px-5 py-3 rounded-full text-gray-500 text-xs">
               Marcas y tiendas
             </button>
           </Link>
-          <Link href={'/artist'}>
+          <Link href={'/artist/artist_id'}>
             <button className="w-40 bg-white cursor-pointer px-5 py-3 rounded-full text-gray-500 text-xs">
               Artistas y conciertos
             </button>
           </Link>
-          <Link href={'/tournament'}>
+          <Link href={'/tournament/tournament_id'}>
             <button className="bg-white cursor-pointer px-5 py-3 rounded-full text-gray-500 text-xs">
               Torneos
             </button>

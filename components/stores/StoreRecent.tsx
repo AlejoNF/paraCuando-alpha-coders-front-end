@@ -24,7 +24,7 @@ const StoreRecent = () => {
                   src="/Bts.png"
                   alt="atoms-img"
                 ></Image>
-                <img className="w-373 h-244" src="/Bts.png" alt="atoms-img" />
+                {/* <img className="w-373 h-244" src="/Bts.png" alt="atoms-img" /> */}
 
                 <div className={styles.card__container_status}>
                   <div className={styles.like}>

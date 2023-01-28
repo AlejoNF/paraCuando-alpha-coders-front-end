@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import styles from '../styles/Layout.module.css';
 
 export default function Footer() {
   return (
@@ -10,10 +11,11 @@ export default function Footer() {
           placeholder="¿Qué quieres ver en tu ciudad? 🔍"
         />
         <Image
-          width={1285}
+          width={1280}
           height={488}
           src="/rectangle22.png"
           alt="atoms-img"
+          className={styles.footer}
         ></Image>
         {/* <img
           className="w-[1285px] h-[488px] "
