@@ -1,0 +1,9 @@
+.preferences_container {
+  position: absolute;
+  width: 941px;
+  height: 250px;
+  left: 150px;
+  top: 395%;
+
+  background: #f8f7fa;
+}

@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import styles from '../styles/Layout.module.css';
+import BtnTitle from './titleComponents/BtnTitle';
 
 export default function Header() {
   return (
@@ -22,17 +23,10 @@ export default function Header() {
           alt="Frame@2x"
         />
       </div>
-      <div>
-        <input
-          className={styles.header_search}
-          type="text"
-          placeholder="¿Qué quieres ver en tu ciudad? 🔍"
-        />
-      </div>
 
-      <button className={styles.btn_marcas}>Marcas y tiendas</button>
-      <button className={styles.btn_artistas}>Artistas y conciertos</button>
-      <button className={styles.btn_torneos}>Torneos</button>
+      <div>
+        <BtnTitle />
+      </div>
     </div>
   );
 }
