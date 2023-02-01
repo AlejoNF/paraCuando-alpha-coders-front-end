@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 const Artist = () => {
   return (
-    <div className="mt-2">
-      <div className="pl-40 pr-40 pt-6 flex gap-8 justify-center">
+    <div className="mt-2 pb-16">
+      <div className="pl-40 pr-40 pt-[10%] flex gap-8 justify-center">
         <ul>
           <Link href={'/'}>
             <span>Rock</span>
@@ -14,7 +14,7 @@ const Artist = () => {
           <li className="text-black-900 text-[48px] title-font font-bold font-[Roboto] pb-[20px]">
             <p>Title1</p>
           </li>
-          <li className=" text-gray-400 text-base pb-[35px]">
+          <li className=" text-gray-400 text-base pb-[25px]">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
               eius vitae voluptatibus, maxime aspernatur numquam! Odio,
@@ -27,18 +27,19 @@ const Artist = () => {
               Texts 2
             </span>
           </li>
-          <li className="  pt-[10px] pb-8 flex gap-8">
+          <li className="  pt-[10px] pb-4 flex gap-8">
             <Image
               src="/img/person.png"
               alt="person"
               width={51}
               height={51}
+              className="w-[20px] h-[20px]"
             ></Image>
             {/* <img src="/img/person.png" alt="person" /> */}
             <span>Title 3</span>
           </li>
-          <li className="flex gap-8 justify-center text-white pb-[]">
-            <button className="w-[379px] h-[46px] bg-blue-700 text-white-60 border cursor-pointer px-5 py-3 rounded-full  text-xs hover:bg-slate-300 hover:text-blue">
+          <li className="flex gap-8 justify-center text-white">
+            <button className="w-[379px] h-[46px] bg-blue-700 text-white-60 border cursor-pointer px-5 py-1 rounded-full  text-xs hover:bg-slate-300 hover:text-blue mt-[-5]">
               Votar!
             </button>
           </li>

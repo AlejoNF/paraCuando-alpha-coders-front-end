@@ -14,12 +14,12 @@ const tournament_id = () => {
         <NarvarUser />
       </section>
       <section>
-        <div className="pt-20 w-[1285px] container ml-[15px] ">
+        <div className="pt-20 ">
           <div className="flex justify-start">
             {/* <span>Title</span>
         <span>/ Title</span>
         <span>/ Title</span> */}
-            <h2 className="absolute mt-[30px] pl-[10%] py-3 rounded-full text-yellow-600 font-semibold text-900 text-5xl">
+            <h2 className="absolute mt-[30px] pl-[10%] py-3 rounded-full text-yellow-400 font-semibold text-900 text-5xl">
               {/* <div className=""></div> */}
               Torneos y Eventos
             </h2>
@@ -43,7 +43,7 @@ const tournament_id = () => {
         </div>
       </section>
 
-      <section className="pt-0 pb-0 ml-[15px] w-full pr-0 container border">
+      <section>
         <Search />
       </section>
 

@@ -1,17 +1,18 @@
 import NarvarUser from '@/components/NarvarUser';
+import Post from '@/components/Post';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const profile_id = () => {
+const MyPosts = () => {
   return (
     <div>
       <section>
         <NarvarUser />
       </section>
-      <div className="flex flex-col pt-10 ml-[-79px] h-[350px]">
-        <main className="flex flex-col px-20 ">
-          <div className="bg-blue flex flex-row w-[1280px]">
-            <div className="w-[1280px]">
+      <div className="flex  pt-10  h-[350px]">
+        <main>
+          <div className="bg-blue flex flex-row ">
+            <div>
               <section className=" flex items-center justify-center  bg-blue-600 h-[129px] w-[1280px] mt-5">
                 <div className="rounded-full bg-pink-400 mt-[8rem]">
                   <Image
@@ -26,15 +27,18 @@ const profile_id = () => {
 
               <section className=" flex items-center justify-center gap-6 mt-[6rem]">
                 <Link href={'/MyVotes'}>
-                  <button className=" bg-white cursor-pointer px-5 py-3 rounded-full text-gray-500 text-xs  hover:bg-slate-300 hover:text-white">
+                  <button className=" bg-white cursor-pointer px-5 py-3 rounded-full border border-slate-300 text-gray-500 text-xs  hover:bg-slate-300 hover:text-white">
                     Mis votos
                   </button>
                 </Link>
                 <Link href={'/MyPosts'}>
-                  <button className=" bg-white cursor-pointer px-5 py-3 rounded-full text-gray-500 text-xs  hover:bg-slate-300 hover:text-white">
+                  <button className=" bg-white cursor-pointer px-5 py-3 rounded-full border border-slate-300 text-gray-500 text-xs  hover:bg-slate-300 hover:text-white">
                     Mis publicaciones
                   </button>
                 </Link>
+              </section>
+              <section>
+                <Post />
               </section>
             </div>
           </div>
@@ -44,4 +48,4 @@ const profile_id = () => {
   );
 };
 
-export default profile_id;
+export default MyPosts;

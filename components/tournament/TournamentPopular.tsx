@@ -5,7 +5,7 @@ import styles from '../../styles/Card.module.css';
 const TournamentPopular = () => {
   return (
     <div>
-      <section className="pl-20 pt-4 ">
+      <section className="pl-20 pt-7">
         <h2 className="pl-20 mdfont-sans text-black-600 text-2xl title-font font-bold pb-0  pt-5">
           Title
         </h2>
@@ -17,7 +17,7 @@ const TournamentPopular = () => {
       <div className={styles.card_location}>
         <div className={styles.card__container_location}>
           <article className={styles.card}>
-            <Link href={'/artist_info'}>
+            <Link href={'/artist/artist_id'}>
               <header className={styles.card__header}>
                 <Image
                   width={373}
@@ -30,10 +30,10 @@ const TournamentPopular = () => {
                 <div className={styles.card__container_status}>
                   <div className={styles.like}>
                     {/* <img
-                      src="/img/2=like2.png"
-                      alt="like-img"
-                      className={styles.like_pink}
-                    /> */}
+                              src="/img/2=like2.png"
+                              alt="like-img"
+                              className={styles.like_pink}
+                            /> */}
                     <Image
                       src="/img/2=like2.png"
                       alt="like-img"
@@ -72,32 +72,34 @@ const TournamentPopular = () => {
           </article>
 
           <article className={styles.card}>
-            <header className={styles.card__header}>
-              <Image
-                width={373}
-                height={244}
-                src="/Zara.png"
-                alt="atoms-img"
-              ></Image>
-              {/* <img className="w-373 h-244" src="/Zara.png" alt="atoms-img" /> */}
+            <Link href={'/brand/brand_id'}>
+              <header className={styles.card__header}>
+                <Image
+                  width={373}
+                  height={244}
+                  src="/Zara.png"
+                  alt="atoms-img"
+                ></Image>
+                {/* <img className="w-373 h-244" src="/Zara.png" alt="atoms-img" /> */}
 
-              <div className={styles.card__container_status}>
-                <div className={styles.like}>
-                  <Image
-                    src="/img/2=like2.png"
-                    alt="like-img"
-                    className={styles.like_pink}
-                    width={51}
-                    height={51}
-                  ></Image>
-                  {/* <img
-                    src="/img/2=like2.png"
-                    alt="like-img"
-                    className={styles.like_pink}
-                  /> */}
+                <div className={styles.card__container_status}>
+                  <div className={styles.like}>
+                    <Image
+                      src="/img/2=like2.png"
+                      alt="like-img"
+                      className={styles.like_pink}
+                      width={51}
+                      height={51}
+                    ></Image>
+                    {/* <img
+                            src="/img/2=like2.png"
+                            alt="like-img"
+                            className={styles.like_pink}
+                          /> */}
+                  </div>
                 </div>
-              </div>
-            </header>
+              </header>
+            </Link>
 
             <section className={styles.card__body}>
               <h3 className=" text-slate-600 text-2xl title-font font-bold text-blue pb-2">
@@ -125,32 +127,34 @@ const TournamentPopular = () => {
           </article>
 
           <article className={styles.card}>
-            <header className={styles.card__header}>
-              <Image
-                width={373}
-                height={244}
-                src="/Lady.png"
-                alt="Zara-img"
-              ></Image>
-              {/* <img className="w-373 h-244" src="/Lady.png" alt="Zara-img" /> */}
+            <Link href={'/artist_info'}>
+              <header className={styles.card__header}>
+                <Image
+                  width={373}
+                  height={244}
+                  src="/Lady.png"
+                  alt="Zara-img"
+                ></Image>
+                {/* <img className="w-373 h-244" src="/Lady.png" alt="Zara-img" /> */}
 
-              <div className={styles.card__container_status}>
-                <div className={styles.like}>
-                  <Image
-                    src="/img/2=like2.png"
-                    alt="like-img"
-                    className={styles.like_pink}
-                    width={51}
-                    height={51}
-                  ></Image>
-                  {/* <img
-                    src="/img/2=like2.png"
-                    alt="like-img"
-                    className={styles.like_pink}
-                  /> */}
+                <div className={styles.card__container_status}>
+                  <div className={styles.like}>
+                    <Image
+                      src="/img/2=like2.png"
+                      alt="like-img"
+                      className={styles.like_pink}
+                      width={51}
+                      height={51}
+                    ></Image>
+                    {/* <img
+                            src="/img/2=like2.png"
+                            alt="like-img"
+                            className={styles.like_pink}
+                          /> */}
+                  </div>
                 </div>
-              </div>
-            </header>
+              </header>
+            </Link>
 
             <section className={styles.card__body}>
               <h3 className=" text-slate-600 text-2xl title-font font-bold text-blue pb-2">
@@ -178,7 +182,7 @@ const TournamentPopular = () => {
           </article>
         </div>
       </div>
-      <div className="ml-[90%] absolute top-[122%] hover:brightness-150">
+      <div className="ml-[93.5%] absolute top-[147%] hover:brightness-150">
         <Image src="/next.png" alt="btn-next" width={51} height={51}></Image>
         {/* <img src="/next.png" alt="btn-next" /> */}
       </div>

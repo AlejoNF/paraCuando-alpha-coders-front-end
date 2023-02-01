@@ -14,12 +14,12 @@ const brand_id = () => {
         <NarvarUser />
       </section>
       <section>
-        <div className="pt-20 w-[1280px] container ">
+        <div className="pt-20 ">
           <div className="flex justify-start">
             {/* <span>Title</span>
           <span>/ Title</span>
           <span>/ Title</span> */}
-            <h2 className="absolute mt-[30px] pl-[10%] py-3 rounded-full text-yellow-600 font-semibold text-900 text-5xl">
+            <h2 className="absolute mt-[30px] pl-[10%] py-3 rounded-full text-yellow-300 font-semibold text-900 text-5xl">
               {/* <div className=""></div> */}
               Marcas y tiendas
             </h2>
@@ -32,7 +32,7 @@ const brand_id = () => {
               height={204}
               src="/Store.png"
               alt="atoms-img"
-              className="w-[1280px] h-[488px]"
+              className="w-[1285px] h-[204px]"
             ></Image>
             {/* <img
               className="w-[1280px] h-[204px] "

@@ -11,15 +11,13 @@ function Navbar() {
           <div className="flex items-center h-20 w-full">
             <div className="flex items items-center mx-20 justify-between w-full">
               <div className="flex justify-center items-center flex-shrink-0">
-                <Link href={'/'}>
-                  <Image
-                    src="/img/Frame.png"
-                    width={600 / 10}
-                    height={600 / 10}
-                    className="h9 t-rotate(9.5deg"
-                    alt="Frame"
-                  />
-                </Link>
+                <Image
+                  src="/img/Frame.png"
+                  width={600 / 10}
+                  height={600 / 10}
+                  className="h9 t-rotate(9.5deg"
+                  alt="Frame"
+                />
               </div>
 
               <div>

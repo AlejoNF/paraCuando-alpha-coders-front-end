@@ -1,7 +1,7 @@
 import { Transition } from '@headlessui/react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { useState } from 'react';
-import { Link } from 'react-scroll';
 
 function NarvarUser() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,8 +18,9 @@ function NarvarUser() {
                 </h1> */}
 
                 <Link
-                  activeClass="/"
-                  to="/"
+                  href={'/'}
+                  // activeClass="/"
+                  // to="/"
                   smooth={true}
                   offset={50}
                   duration={500}
@@ -38,8 +39,9 @@ function NarvarUser() {
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
                   <Link
-                    activeClass="NewPost"
-                    to="NewPost"
+                    href={'/NewPost'}
+                    // activeClass="NewPost"
+                    // to="NewPost"
                     smooth={true}
                     offset={50}
                     duration={500}
@@ -49,8 +51,9 @@ function NarvarUser() {
                   </Link>
 
                   <Link
-                    activeClass="MyVotes"
-                    to="MyVotes"
+                    href={'/MyVotes'}
+                    // activeClass="MyVotes"
+                    // to="MyVotes"
                     smooth={true}
                     offset={50}
                     duration={500}
@@ -63,8 +66,9 @@ function NarvarUser() {
                   </Link>
 
                   <Link
-                    activeClass="LoginById"
-                    to="LoginById"
+                    href={'/Login_id'}
+                    // activeClass="LoginById"
+                    // to="LoginById"
                     smooth={true}
                     offset={50}
                     duration={500}
@@ -140,9 +144,9 @@ function NarvarUser() {
                 className="bg-black px-2 pt-2 pb-3 space-y-1 sm:px-3"
               >
                 <Link
-                  href="/NewPost"
-                  activeClass="newpost"
-                  to="newpost"
+                  href={'/NewPost'}
+                  // activeClass="NewPost"
+                  // to="NewPost"
                   smooth={true}
                   offset={50}
                   duration={500}
@@ -151,9 +155,9 @@ function NarvarUser() {
                   + New Post
                 </Link>
                 <Link
-                  href="/MyVotes"
-                  activeClass="myvotes"
-                  to="myvotes"
+                  href={'/MyVotes'}
+                  // activeClass="MyVotes"
+                  // to="MyVotes"
                   smooth={true}
                   offset={50}
                   duration={500}
@@ -165,9 +169,9 @@ function NarvarUser() {
                   Mis votos
                 </Link>
                 <Link
-                  href="/LoginById"
-                  activeClass="loginbyid"
-                  to="loginbyid"
+                  href={'/LoginById'}
+                  // activeClass="loginbyid"
+                  // to="loginbyid"
                   smooth={true}
                   offset={50}
                   duration={500}

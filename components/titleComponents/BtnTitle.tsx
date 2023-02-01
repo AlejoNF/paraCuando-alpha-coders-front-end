@@ -2,9 +2,9 @@ import Link from 'next/link';
 
 export default function BtnTitle() {
   return (
-    <div>
+    <div className="flex items-center justify-center ">
       <section className="absolute mt-[-13%] container border-none">
-        <div className="flex gap-3 justify-center">
+        <div className=" gap-3 flex items-center justify-center ">
           <input
             className="mb-5 w-[360px] border bg-white border-solid-[1px] border-gray-300 cursor-pointer px-5 py-3 rounded-full text-gray-500 text-xs"
             type="text"

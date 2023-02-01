@@ -5,7 +5,7 @@ import styles from '../../styles/Card.module.css';
 const ArtistPopular = () => {
   return (
     <div>
-      <section className="pl-20 pt-4 ">
+      <section className="pl-20 pt-7 ">
         <h2 className="pl-20 mdfont-sans text-black-600 text-2xl title-font font-bold pb-0  pt-5">
           Title
         </h2>
@@ -178,7 +178,7 @@ const ArtistPopular = () => {
           </article>
         </div>
       </div>
-      <div className="ml-[90%] absolute top-[122%] hover:brightness-150">
+      <div className="ml-[93.5%] absolute top-[148%] hover:brightness-150">
         <Image src="/next.png" alt="btn-next" width={51} height={51}></Image>
         {/* <img src="/next.png" alt="btn-next" /> */}
       </div>

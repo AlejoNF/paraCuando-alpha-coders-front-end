@@ -1,3 +1,15 @@
+import NarvarUser from '@/components/NarvarUser';
+import PostInfo from '@/components/posts/PostInfo';
+
 export default function NewPost() {
-  return <div>NewPost</div>;
+  return (
+    <div>
+      <section>
+        <NarvarUser />
+      </section>
+      <section>
+        <PostInfo />
+      </section>
+    </div>
+  );
 }
