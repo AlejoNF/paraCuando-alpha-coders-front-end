@@ -10,7 +10,7 @@ export default function Header() {
           height={488}
           src="/img/Rectangle21.png"
           alt="atoms-img"
-          className="w-[1280px] h-[488px] mt-[5rem]"
+          className="w-full h-[488px] mt-[5rem]"
         ></Image>
         <Image
           src="/img/Frame@2x.png"
@@ -20,7 +20,7 @@ export default function Header() {
           left={157}
           // className={styles.header_title}
           alt="Frame@2x"
-          className="absolute  w-[245px] h-[245px] bg-none"
+          className="absolute  w-[214px] h-[190px] t-[79px]"
         />
       </div>
 

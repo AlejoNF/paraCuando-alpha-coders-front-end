@@ -182,7 +182,7 @@ const Homepopular = () => {
           </article>
         </div>
       </div>
-      <div className="ml-[93.5%] absolute top-[180%] hover:brightness-150">
+      <div className="ml-[86%] absolute top-[147%] hover:brightness-150 w-[51pk] h-[51px]">
         <Image src="/next.png" alt="btn-next" width={51} height={51}></Image>
         {/* <img src="/next.png" alt="btn-next" /> */}
       </div>
