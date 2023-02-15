@@ -45,12 +45,12 @@
 .card__header {
   position: relative;
 }
-.like {
-  position: absolute;
-  top: 13.5rem;
-  margin-left: 15rem;
-  display: flex;
-  cursor: pointer;
+.like_green {
+  background-color: aqua;
+}
+
+.like_pink {
+  background-color: pink;
 }
 .like:hover {
   transform: scale(1.1);

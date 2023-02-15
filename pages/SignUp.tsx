@@ -21,7 +21,7 @@ const SignUp = () => {
                 height={250}
                 // className={styles.header_title}
                 alt="Group"
-                className="absolute  w-[245px] h-[55px] mt-[-29%] ml-[14%]  bg-none"
+                className="absolute  w-[245px] h-[55px] mt-[-25%] ml-[10%]  bg-none"
               />
               <Image
                 src="/img/Group(1).png"
@@ -29,7 +29,7 @@ const SignUp = () => {
                 height={250}
                 // className={styles.header_title}
                 alt="Group(1)"
-                className="absolute  w-[129px] h-[30px] mt-[-26%] ml-[34%]  bg-none"
+                className="absolute  w-[129px] h-[30px] mt-[-24%] ml-[28%]  bg-none"
               />
             </div>
           </div>
@@ -40,36 +40,37 @@ const SignUp = () => {
                 width={187}
                 height={187}
                 alt="Frame@2x"
-                className=" w-[187px] h-[187px] mt-[4rem]  "
+                className=" w-[187px] h-[187px] mt-[98px]  "
               ></Image>
             </section>
-            <form className="pl-[11%] w-[488px]">
-              <h2 className="text-2xl   text-black pb-[1rem] font-semibold font-sans">
+
+            <form className="ml-[17%] w-[487.16px] h-[432.3] ">
+              <h2 className="text-2xl   text-black pb-[5px] font-semibold font-sans mt-[36.70px]">
                 Sign Up
               </h2>
-              <p className="pb-[1rem] text-slate-500 font-sans">
+              <p className="pb-[5px] text-slate-500 font-sans">
                 Login with the data you entered during your registration.
               </p>
 
-              <div className="space-y-[10px] text-slate-500">
+              <div className="pt-[5px] text-slate-500">
                 <label htmlFor="email">Email</label>
                 <input
-                  className=" w-[487px] h-[48px] border border-spacing-6 border-slate-400 px-4 rounded "
+                  className=" w-[487.16px] h-[45.26px] border s border-slate-400 px-4 rounded "
                   placeholder="Enter your email"
                   type="email"
                   id="email"
                 />
               </div>
 
-              <div className="flex flex-col gap-6  flex-1 ">
-                <div className="bg-blue flex flex-row  gap-6">
-                  <div className="w-[239px] gap-6">
-                    <div className="space-y-2 text-slate-500">
+              <div className="flex flex-col gap-[10px] flex-1 ">
+                <div className="bg-blue flex flex-row  gap-[10px] ">
+                  <div className="w-[238.5px]  gap-[10px] ">
+                    <div className="pt-[5px] text-slate-500">
                       <label className="" htmlFor="name">
                         Nombre
                       </label>
                       <input
-                        className=" w-[230px] h-[45px] border border-spacing-6 border-slate-400 px-4 rounded"
+                        className=" w-[238.5px] h-[45.26px] border  border-slate-400 px-4 rounded"
                         placeholder="Enter your name"
                         type="text"
                         id="name"
@@ -77,13 +78,13 @@ const SignUp = () => {
                     </div>
                   </div>
 
-                  <div className="w-[239px] gap-6 ">
-                    <div className="space-y-2 text-slate-500">
+                  <div className="w-[238.5px] gap-6 ">
+                    <div className="pt-[5px] text-slate-500">
                       <label className="" htmlFor="lastName">
                         Lastname
                       </label>
                       <input
-                        className=" w-[230px] h-[45px] border border-spacing-6 border-slate-400 px-4 rounded"
+                        className=" w-[238.5px] h-[45.26px] border  border-slate-400 px-4 rounded"
                         placeholder="Enter your lastname"
                         type="text"
                         id="lastname"
@@ -93,24 +94,24 @@ const SignUp = () => {
                 </div>
               </div>
 
-              <div className="space-y-[10px] text-slate-500">
+              <div className="pt-[5px] text-slate-500">
                 <label className="form-label" htmlFor="password">
                   Password
                 </label>
                 <input
-                  className="w-[487px] h-[45px] border border-spacing-6 border-slate-400 px-4"
+                  className="w-[487.16px] h-[45.26px] border  border-slate-400 px-4"
                   placeholder="Enter your password"
                   type="password"
                   id="password"
                 />
               </div>
               <Link href={'/profile/profile_id'}>
-                <button className="text-xl w-[487px] h-[45px] rounded bg-blue-700 text-white mb-2 mt-12 hover:brightness-150">
+                <button className="text-xl w-[487.16px] h-[45.26px] rounded bg-blue-700 text-white mb-[5px] mt-[30.26px] hover:brightness-150">
                   Crear Cuenta
                 </button>
               </Link>
 
-              <p className="text-gray-500 pl-20 text-center hover:text-blue-600">
+              <p className="text-gray-500  text-center hover:text-blue-600">
                 <Link href={'/Login'}>or Log in</Link>
               </p>
             </form>

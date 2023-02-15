@@ -14,7 +14,7 @@ const brand_id = () => {
         <NarvarUser />
       </section>
       <section>
-        <div className="pt-20 ">
+        <div className="pt-[71px] ">
           <div className="flex justify-start">
             {/* <span>Title</span>
           <span>/ Title</span>
@@ -32,7 +32,7 @@ const brand_id = () => {
               height={204}
               src="/Store.png"
               alt="atoms-img"
-              className="w-[1285px] h-[204px]"
+              className="w-full h-[204px]"
             ></Image>
             {/* <img
               className="w-[1280px] h-[204px] "

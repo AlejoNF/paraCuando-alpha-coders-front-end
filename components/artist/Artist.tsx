@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Artist = () => {
   return (
     <div className="mt-2 pb-16">
-      <div className="pl-40 pr-40 pt-[10%] flex gap-8 justify-center">
+      <div className="pl-40 pr-40 pt-[101px] flex gap-8 justify-center">
         <ul>
           <Link href={'/'}>
             <span>Rock</span>
@@ -49,7 +49,7 @@ const Artist = () => {
           alt="atoms-img"
           width={538}
           height={381}
-          className="w-[538px] h-[381px]"
+          className="w-[539px] h-[381px]"
         ></Image>
         {/* <img className="w-[539px] h-[381px]" src="/Bts.png" alt="atoms-img" /> */}
       </div>
